@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 40px;
+}
+.genreText {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 32px;
+    color: #090937;
+}
+.divTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 70px;
+    gap: 20px;
+}
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #F4F4FF;
+    border: 1px solid #0909371A;
+    border-radius: 4px;
+    width: 320px;
+    height: 200px;
+    padding: 10px;
+}
+.detailsButton {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: transparent;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}
+.link {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 20px;    
+    color: #EF6B4A;
+
+    &:hover {
+        transform: scale(1.2);
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}
+.capa {
+    max-width: 110px;
+}
+.descriptionText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.authorTitleDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.titleText {
+    color: #090937;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 20px;
+}
+.authorText {
+    color: #09093799;
+    opacity: 0.6;
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 16px;
+}
+.priceTag {
+    color: #6251DD;
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 24px;
+}

@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Manrope';
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.mainPic {
+    max-height: 100vh;
+}
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 4.375rem;
+}
+.logoDiv {
+    display: flex;
+    justify-content: center;
+    
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.3s ease-in-out;
+    }
+}
+.logoPic {
+    min-width: 13rem;
+    max-width: 13rem;
+}
+.divOne {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    align-self: flex-start;
+    padding-left: 10.8rem;
+    gap: 0.5rem;
+}
+.saudacao {
+    opacity: 60%;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.entrada {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+.divTwo {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    padding-left: 10.8rem;
+    padding-bottom: 3.75rem;
+    gap: 2rem;
+}
+.subOne, .subTwo {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 1.25rem;
+    gap: 0.7rem;
+}
+.errorMessage {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgb(207, 0, 0);
+}
+.email {
+    color: #09093766;
+    opacity: 60%;
+    background-color: #F4F4FF;
+    border-color: #F4F4FF;
+    border: none;
+    border-radius: .25rem;
+    outline: none;
+    width: 45rem;
+    padding: 1rem;
+}
+.password {
+    color: #09093766;
+    opacity: 60%;
+    background-color: #F4F4FF;
+    border-color: #F4F4FF;
+    border: none;
+    border-radius: .25rem;
+    outline: none;
+    width: 45rem;
+    padding: 1rem;
+}
+.enabledEnterButton {
+    padding: .625rem 1.25rem .625rem 1.25rem;
+    background-color: #EF6B4A;
+    color: #FFFFFF;
+    outline: none;
+    border-color: #EF6B4A;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    width: 45rem;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}
+.disabledEnterButton {
+    padding: .625rem 1.25rem .625rem 1.25rem;
+    background-color: #a34a34;
+    color: #FFFFFF;
+    outline: none;
+    border-color: #c0563c;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    width: 45rem;
+    cursor: not-allowed;
+}
+.registerButton {
+    padding: .625rem 1.25rem .625rem 1.25rem;
+    background-color: #FFFFFF;
+    color: #6251DD;
+    outline: none;
+    border-color: #6251DD;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: .25rem;
+    width: 45rem;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}

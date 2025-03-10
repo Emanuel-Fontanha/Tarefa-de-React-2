@@ -1,0 +1,112 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Manrope';
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 60px;
+}
+.voltarButton {
+    font-weight: 700;
+    font-size: 24px;
+    color: #090937;
+    border: none;
+    background-color: #fff;
+    align-self: flex-start;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+}
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+}
+.cover {
+    background-color: #F4F4FF;
+    border: #0909371A solid 1px;
+    border-radius: 4px;
+    padding: 60px;
+    max-width: 400px;
+    max-height: 612px;
+    box-shadow: 0px 4px 8px 0px rgba(98, 81, 221, 0.2);
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.titleAuthorDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #090937;
+}
+.author {
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    opacity: 0.6;
+}
+.sinopseDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sinopse {
+    font-weight: 700;
+    font-size: 24px;
+    color: #090937;
+}
+.sinopseText {
+    font-weight: 600;
+    font-size: 20px;
+    color: #090937;
+    opacity: 0.6;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+.buyButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    background-color: #EF6B4A;
+    border: none;
+    border-radius: 4px;
+    width: 400px;
+    padding: 10px 20px;
+    &:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+
+    &:focus {
+        background-color: #af4f38;
+        transition: 0.2s ease-in-out;
+    }
+}
+.priceTag {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.addToCart {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
